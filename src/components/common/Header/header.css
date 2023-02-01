@@ -1,7 +1,7 @@
 .header{
     justify-content: space-between;
     align-items: center;
-    padding: 60px 0 40px;
+    padding: 60px 0 5px;
 }
 .header-logo{
     height: 66px;
@@ -10,7 +10,7 @@
 .header-nav-item{
     cursor: pointer;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     margin: 0 20px 0 30px;
     opacity: 0.8;
 }
