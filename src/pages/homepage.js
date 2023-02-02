@@ -4,6 +4,7 @@ import Header from "../components/common/Header";
 import ProductShowCase from "../components/ProductionShowCase";
 import FeelSpecial from "../components/FeelSpecial";
 import MoneyMatters from "../components/MoneyMatters";
+import SecurityFirst from "../components/SecurityFirst";
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
       <ProductShowCase/>
       <FeelSpecial/>
       <MoneyMatters />
+      <SecurityFirst/>
     </React.Fragment>
   );
 };
