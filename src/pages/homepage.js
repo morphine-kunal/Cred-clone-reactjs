@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "../components/HeroSection";
 import Header from "../components/common/Header";
 import ProductShowCase from "../components/ProductionShowCase";
+import FeelSpecial from "../components/FeelSpecial";
 
 const Homepage = () => {
   return (
@@ -9,6 +10,7 @@ const Homepage = () => {
       <Header />
       <HeroSection />
       <ProductShowCase/>
+      <FeelSpecial/>
     </React.Fragment>
   );
 };

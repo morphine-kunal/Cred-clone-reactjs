@@ -28,8 +28,10 @@ const ProductShowCase = () => {
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+       
+      if (ref.current) {      
+        // eslint-disable-next-line 
+        observer.unobserve(ref.current);  
       }
     };
   });
