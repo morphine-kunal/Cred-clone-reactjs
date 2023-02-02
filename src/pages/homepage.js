@@ -6,17 +6,21 @@ import FeelSpecial from "../components/FeelSpecial";
 import MoneyMatters from "../components/MoneyMatters";
 import SecurityFirst from "../components/SecurityFirst";
 import BrandsLove from "../components/BrandsLove";
+import WindowPeak from "../components/WindowPeak";
 
 const Homepage = () => {
   return (
     <React.Fragment>
       <Header />
       <HeroSection />
-      <ProductShowCase/>
-      <FeelSpecial/>
+      <ProductShowCase />
+      <FeelSpecial />
       <BrandsLove />
       <MoneyMatters />
-      <SecurityFirst/>
+      <div className="non-mobile">
+        <WindowPeak />
+      </div>
+      <SecurityFirst />
     </React.Fragment>
   );
 };
