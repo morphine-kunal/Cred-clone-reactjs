@@ -7,6 +7,7 @@ import MoneyMatters from "../components/MoneyMatters";
 import SecurityFirst from "../components/SecurityFirst";
 import BrandsLove from "../components/BrandsLove";
 import WindowPeak from "../components/WindowPeak";
+import MobileScroll from "../components/MobileScroll";
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
       <FeelSpecial />
       <BrandsLove />
       <MoneyMatters />
+      <MobileScroll/>
       <div className="non-mobile">
         <WindowPeak />
       </div>
