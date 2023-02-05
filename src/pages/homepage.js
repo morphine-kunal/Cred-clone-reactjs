@@ -9,6 +9,7 @@ import BrandsLove from "../components/BrandsLove";
 import WindowPeak from "../components/WindowPeak";
 import MobileScroll from "../components/MobileScroll";
 import CredStory from "../components/CredStory";
+import AppRating from "../components/AppRating";
 
 const Homepage = () => {
   return (
@@ -25,6 +26,7 @@ const Homepage = () => {
       </div>
       <SecurityFirst />
       <CredStory/>
+      <AppRating/>
     </React.Fragment>
   );
 };
