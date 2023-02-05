@@ -10,6 +10,7 @@ import WindowPeak from "../components/WindowPeak";
 import MobileScroll from "../components/MobileScroll";
 import CredStory from "../components/CredStory";
 import AppRating from "../components/AppRating";
+import Footer from "../components/common/Footer";
 
 const Homepage = () => {
   return (
@@ -27,6 +28,7 @@ const Homepage = () => {
       <SecurityFirst />
       <CredStory/>
       <AppRating/>
+      <Footer/>
     </React.Fragment>
   );
 };
