@@ -8,6 +8,7 @@ import SecurityFirst from "../components/SecurityFirst";
 import BrandsLove from "../components/BrandsLove";
 import WindowPeak from "../components/WindowPeak";
 import MobileScroll from "../components/MobileScroll";
+import CredStory from "../components/CredStory";
 
 const Homepage = () => {
   return (
@@ -23,6 +24,7 @@ const Homepage = () => {
         <WindowPeak />
       </div>
       <SecurityFirst />
+      <CredStory/>
     </React.Fragment>
   );
 };

@@ -1,7 +1,7 @@
-import React, {useState, useRef, useEffect} from 'react';
+import React, { useState, useRef, useEffect } from "react";
 
-const ScreenText = ({screen, setCurrentImg, i}) => {
-    const [showAnimation, setShowAnimation] = useState(false);
+const ScreenText = ({ screen, setCurrentImg, i }) => {
+  const [showAnimation, setShowAnimation] = useState(false);
 
   const ref = useRef(false);
 
@@ -26,24 +26,27 @@ const ScreenText = ({screen, setCurrentImg, i}) => {
         observer.observe(ref.current);
       }
     }
-});
+  });
   return (
-    <div className={`screen-text ${showAnimation ? 'text-visible' : ''}`} ref={ref}>
-      <div className='screen-heading'>{screen.heading}</div>
+    <div
+      className={`screen-text ${showAnimation ? "text-visible" : ""}`}
+      ref={ref}
+    >
+      <div className="screen-heading">{screen.heading}</div>
       <div className="mobile-mockup-wrapper only-mobile">
-          <div className="mobile-mockup">
-            <div className="mobile-mockup-screen flex absolute-center">
-              <img
-                src={screen.mobile_img}
-                className="mobile-screen-img"
-                alt="mobile mockup "
-              />
-            </div>
+        <div className="mobile-mockup">
+          <div className="mobile-mockup-screen flex absolute-center">
+            <img
+              src={screen.mobile_img}
+              className="mobile-screen-img"
+              alt="mobile mockup "
+            />
           </div>
         </div>
-        <div className='screen-discription'>{screen.discription}</div>
+      </div>
+      <div className="screen-discription">{screen.discription}</div>
     </div>
-  ) 
-}
+  );
+};
 
 export default ScreenText;
